@@ -1,0 +1,41 @@
+### Available MCP Tools
+
+**🔧 compare_prices**
+_
+Compares the price of a product on Amazon and Flipkart to find the cheapest option.
+_
+
+---
+**🔧 set_price_alert**
+_
+Sets a background alert to monitor the price of a product. 
+You will be notified via email/SMS when the price drops below the target_price.
+_
+
+---
+**🔧 find_active_coupons**
+_
+Visits the actual product page on Amazon or Flipkart and extracts the real bank offers and cashback details available right now.
+Example: find_active_coupons("https://www.amazon.in/dp/B0CHX1W1XY")
+_
+
+---
+**🔧 calculate_review_trust_score**
+_
+Scrapes the first page of reviews and runs a quick heuristic check to detect potential fake reviews.
+Returns a Trust Score and warning if suspicious.
+_
+
+---
+**🔧 find_nearby_offline_stores**
+_
+O2O Sensor (Online-to-Offline).
+Finds physical stores selling a specific brand near a given pincode.
+Useful when online delivery is too slow or the user prefers buying locally.
+
+Args:
+    pincode (str): The postal code to search around (e.g., "560001")
+    product_brand (str): The brand to search for (e.g., "ASUS", "Samsung", "Apple")
+_
+
+---

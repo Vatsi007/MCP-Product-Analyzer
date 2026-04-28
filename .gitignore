@@ -1,0 +1,23 @@
+# Virtual Environments
+PriceCompareVenv/
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.sqlite3
+alerts.db
+
+# Debug & Temp files
+amazon_debug.png
+amazon_debug.txt
+scratch/
+
+# OS generated files
+.DS_Store
+Thumbs.db
